@@ -97,7 +97,7 @@ Example:
   davinci pgsql lsdir       -H 192.168.1.2 -P 5432 -u postgres -p 123456 -t /
 ```
 
-各个组件的详细使用方式以及支持的功能，请参考wiki
+各个组件的详细使用方式以及支持的功能，请参考：[wiki](https://github.com/Ape1ron/davinci/wiki)
 
 此外，工具还提供了一个批量执行的功能
 ```bash
@@ -162,6 +162,7 @@ Global Flags:
 要关闭日志记录只需要使用`--no-log`选项即可。
 
 此外，默认输出级别是info级别，会包含执行过程的详细信息，可以使用`--silent`选项来关闭详细输出，仅输出Warn级别以上的信息。
+
 
 
 ## todo
